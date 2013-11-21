@@ -1,10 +1,10 @@
 class StaticPagesController < ApplicationController
-  def AssmblyIns1
+  def assmblyIns1
   end
 
-  def AssmblyIns2
+  def assmblyIns2
   end
 
-  def AssmblyIns3
+  def assmblyIns3
   end
 end

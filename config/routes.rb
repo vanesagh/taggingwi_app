@@ -1,7 +1,10 @@
 TaggingwiApp::Application.routes.draw do
-  get "static_pages/AssmblyIns1"
-  get "static_pages/AssmblyIns2"
-  get "static_pages/AssmblyIns3"
+ # get "static_pages/AssmblyIns1"
+ root 'static_pages#assmblyIns1'
+ match '/assmblyIns2', to: 'static_pages#assmblyIns2', via: 'get'
+ match '/assmblyIns3', to: 'static_pages#assmblyIns3', via: 'get'
+ #get "static_pages/AssmblyIns2"
+ #get "static_pages/AssmblyIns3"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
